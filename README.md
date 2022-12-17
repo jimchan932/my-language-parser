@@ -10,7 +10,8 @@ Chomsky Normal Form of language model:
 <br />
 
 <br />
-## Parser
+## 
+Parser
 The parser is based on CYK Algorithm, it takes on an input sentence and outputs a parse tree of the sentence. 
 Reference:
 <br />
