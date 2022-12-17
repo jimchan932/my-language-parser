@@ -3,6 +3,7 @@ A language parser based on "A biologically implausible parser" (Daniel et al., 2
 <br />
 ##
 Chomsky Normal Form of language model:
+<br/>
 <img src="/assets/ChomskyNormalForm1.png">
 <img src="/assets/ChomskyNormalForm1.png">
 <br />
