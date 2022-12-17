@@ -6,7 +6,8 @@ A language parser based on "A biologically implausible parser" (Daniel et al., 2
 <img src="/assets/ChomskyNormalForm1.png">
 <br/>
 <img src="/assets/ChomskyNormalForm2.png">
-## Parser 
+
+# Parser
 <br />
 The parser is based on CYK Algorithm, it takes on an input sentence and outputs a parse tree of the sentence. 
 <br />
