@@ -53,8 +53,6 @@ def power_set(set1):
             ans.append(t)
     return ans
 
-
-# 一部分参考代码, 可以在这个基础上完善
 class ParserBrain(Brain):
     def __init__(self, p, lexeme_dict=None, all_areas=None, recurrent_areas=None, initial_areas=None,
                  readout_rules=None):
@@ -85,7 +83,6 @@ class ParserBrain(Brain):
         if lexeme_dict is None:
             self.generate_components()
 
-    # 直接生成组件, 用于分步验证; area_index是在同类脑区中的index, area_name是真实name
     def parse(self, sentence, n=1000, k=30, beta=0.1):    
         word_list = sentence.split(' ')
         parse_tree_word_list = []
